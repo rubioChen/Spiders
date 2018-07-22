@@ -6,7 +6,8 @@ namespace Spiders
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var spider = new MzSpider();
+            spider.Start();
         }
     }
 }
